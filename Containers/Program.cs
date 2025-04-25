@@ -75,7 +75,7 @@ class Program
         dic.ContainsKey("g");
         dic.ContainsValue(20);
 
-        bool res = dic.TryGetValue("b", out var age);
+        bool res = dic.TryGetValue("b", out var age); // записывает значение указанного ключа "b", в переменную age. Также возвращает ответ, найдено значение или нет.
 
         dic.Count();
 
