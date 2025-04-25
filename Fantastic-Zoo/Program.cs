@@ -33,7 +33,7 @@ class Program
                     if (nameToAdd != "")
                     {
                         animals.Add(nameToAdd);
-                        Console.WriteLine("Добавлено: " + nameToAdd);
+                        Console.WriteLine($"Добавлено: {nameToAdd}");
                     }
                     else
                     {
@@ -47,9 +47,9 @@ class Program
                     string nameToRemove = Console.ReadLine();
                     bool removed = animals.Remove(nameToRemove);
                     if (removed)
-                        Console.WriteLine("Удалено: " + nameToRemove);
+                        Console.WriteLine($"Добавлено: {nameToRemove}");
                     else
-                        Console.WriteLine("Не найдено: " + nameToRemove);
+                        Console.WriteLine($"Не найдено: {nameToRemove}");
                     break;
 
                 case 3:
@@ -82,7 +82,7 @@ class Program
                     }
                     else
                     {
-                        Console.WriteLine("Ничего не найдено на букву " + letter);
+                        Console.WriteLine($"Ничего не найдено на букву {letter}");
                     }
                     break;
 
@@ -100,7 +100,7 @@ class Program
                     break;
 
                 default:
-                    Console.WriteLine("Неверный пункт меню.");
+                    Console.WriteLine("Неверный пункт меню. Напишите цифру от 1 до 5.");
                     break;
             }
         }
