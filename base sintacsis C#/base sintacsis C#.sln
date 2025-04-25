@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather Analyzer", "..\Weat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student Marks", "..\Arrays\Student Marks.csproj", "{761030D9-315D-4104-8DBF-4CA5EA55C481}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labirint", "..\Labirint\Labirint.csproj", "{2817A383-ABEE-4B61-A12D-DE5FD26058B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitiesAndPopulations", "..\CitiesAndPopulations\CitiesAndPopulations.csproj", "{E3540D32-F3B6-4A3F-BB44-224B3D810716}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{761030D9-315D-4104-8DBF-4CA5EA55C481}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{761030D9-315D-4104-8DBF-4CA5EA55C481}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{761030D9-315D-4104-8DBF-4CA5EA55C481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2817A383-ABEE-4B61-A12D-DE5FD26058B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2817A383-ABEE-4B61-A12D-DE5FD26058B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2817A383-ABEE-4B61-A12D-DE5FD26058B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2817A383-ABEE-4B61-A12D-DE5FD26058B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3540D32-F3B6-4A3F-BB44-224B3D810716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3540D32-F3B6-4A3F-BB44-224B3D810716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3540D32-F3B6-4A3F-BB44-224B3D810716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3540D32-F3B6-4A3F-BB44-224B3D810716}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
