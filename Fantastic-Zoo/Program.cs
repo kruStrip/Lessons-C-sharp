@@ -12,13 +12,15 @@ class Program
         bool exit = false;
         while (!exit)
         {
-            Console.WriteLine("\nВыберите действие:");
-            Console.WriteLine("1. Добавить существо");
-            Console.WriteLine("2. Удалить существо");
-            Console.WriteLine("3. Найти по первой букве");
-            Console.WriteLine("4. Показать всех по алфавиту");
-            Console.WriteLine("5. Выход");
-            Console.Write("Ваш выбор: ");
+            Console.Write(
+                "Выберите действие:\n" +
+                "1. Добавление нового существа в список\n" +
+                "2. Удаление существа по имени\n" +
+                "3. Поиск всех существ, чьё название начинается с определённой буквы\n" +
+                "4. Вывод всех существ в алфавитном порядке\n" +
+                "5. Выход\n" +
+                "Выбор: "
+            );
 
             double choice = Convert.ToDouble(Console.ReadLine());
 
