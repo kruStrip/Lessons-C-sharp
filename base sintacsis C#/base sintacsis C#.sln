@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitiesAndPopulations", "..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Film-library", "..\Film-library\Film-library.csproj", "{F6535509-D58A-431D-8DD1-B7C487B0F6E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Containers", "..\Containers\Containers.csproj", "{478D61C8-0278-422C-94A4-F11157BE27BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F6535509-D58A-431D-8DD1-B7C487B0F6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6535509-D58A-431D-8DD1-B7C487B0F6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6535509-D58A-431D-8DD1-B7C487B0F6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{478D61C8-0278-422C-94A4-F11157BE27BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478D61C8-0278-422C-94A4-F11157BE27BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478D61C8-0278-422C-94A4-F11157BE27BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478D61C8-0278-422C-94A4-F11157BE27BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
