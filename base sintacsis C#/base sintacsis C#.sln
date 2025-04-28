@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantastic-Zoo", "..\Fantast
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Espionage-operation", "..\Espionage-operation\Espionage-operation.csproj", "{C63970E0-EC8A-4A3B-A47A-7A90B9EC8857}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Managing books in a stack", "..\Managing books in a stack\Managing books in a stack.csproj", "{DBDA6FC3-E313-4F43-AD87-BAA21975D78B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{C63970E0-EC8A-4A3B-A47A-7A90B9EC8857}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C63970E0-EC8A-4A3B-A47A-7A90B9EC8857}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C63970E0-EC8A-4A3B-A47A-7A90B9EC8857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBDA6FC3-E313-4F43-AD87-BAA21975D78B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBDA6FC3-E313-4F43-AD87-BAA21975D78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBDA6FC3-E313-4F43-AD87-BAA21975D78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBDA6FC3-E313-4F43-AD87-BAA21975D78B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
