@@ -30,8 +30,16 @@
                     name = Console.ReadLine();
                     Console.Write("Введите его кол-во: ");
                     count = Convert.ToInt32(Console.ReadLine());
-                    Inventory[name] = count;
-                    Console.WriteLine("Предмет добавлен!");
+                    if (Inventory.ContainsKey(name))
+                    {
+                        Inventory[name] += count;
+                        Console.WriteLine("Предмет добавлен!");
+                    }
+                    else
+                    {
+                        Inventory[name] = count;
+                        Console.WriteLine("Предмет добавлен!");
+                    }
                     break;
 
                 case 2:
