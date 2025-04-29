@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book Library Management (LI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student data analysis", "..\Student data analysis\Student data analysis.csproj", "{D57C1DB5-95F0-4144-AE4B-1D819B8E155C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ+XML", "..\LINQ+XML\LINQ+XML.csproj", "{9FD7CF4F-7024-4763-A45F-1DA98E00F630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product catalog management", "..\Product catalog management\Product catalog management.csproj", "{6A4E6AE1-DCBA-490A-982D-487130A2AEF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{D57C1DB5-95F0-4144-AE4B-1D819B8E155C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D57C1DB5-95F0-4144-AE4B-1D819B8E155C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D57C1DB5-95F0-4144-AE4B-1D819B8E155C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD7CF4F-7024-4763-A45F-1DA98E00F630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD7CF4F-7024-4763-A45F-1DA98E00F630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD7CF4F-7024-4763-A45F-1DA98E00F630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD7CF4F-7024-4763-A45F-1DA98E00F630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4E6AE1-DCBA-490A-982D-487130A2AEF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4E6AE1-DCBA-490A-982D-487130A2AEF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4E6AE1-DCBA-490A-982D-487130A2AEF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4E6AE1-DCBA-490A-982D-487130A2AEF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
