@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 
-public class Books
+public class Book
 {
     public int Id { get; set; }
 
