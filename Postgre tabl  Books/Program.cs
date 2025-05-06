@@ -206,9 +206,9 @@ class Program
         foreach (var pr in afterDelete)
             Console.WriteLine($"ID: {pr.Id} | «{pr.Title}» — Страниц: {pr.Pages}");
 
-        // вычисление средней цены
-        var averagePrice = context.Books.Average(p => p.Price);
-        Console.WriteLine($"\nСредняя цена всех книг: {averagePrice:F2}");
+        // Общее кол-во страниц всех книг всех книг
+        var sumPages = context.Books.Sum(p => p.Pages);
+        Console.WriteLine($"\nОбщее кол-во страниц всех книг: {sumPages}");
 
         // поиск самой дорогой и самой дешевой книги
         var cheapest = context.Books.OrderBy(b => b.Price).FirstOrDefault();
@@ -224,5 +224,6 @@ class Program
         Console.WriteLine("\nСредний рейтинг по жанрам:");
         foreach (var gr in avgRatingByGenre)
             Console.WriteLine($"Жанр «{gr.Genre}»: {gr.AvgRating:F2}");
+
     }
 }
