@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQL, Multiple Table Relatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Namespace", "..\Namespace\Namespace.csproj", "{8CB792F2-408F-4819-88D9-3017D612138E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Error-proof calculator", "..\Error-proof calculator\Error-proof calculator.csproj", "{87F452CF-B66C-4DAC-87EB-54C29679D34B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{8CB792F2-408F-4819-88D9-3017D612138E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CB792F2-408F-4819-88D9-3017D612138E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CB792F2-408F-4819-88D9-3017D612138E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F452CF-B66C-4DAC-87EB-54C29679D34B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F452CF-B66C-4DAC-87EB-54C29679D34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F452CF-B66C-4DAC-87EB-54C29679D34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F452CF-B66C-4DAC-87EB-54C29679D34B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
